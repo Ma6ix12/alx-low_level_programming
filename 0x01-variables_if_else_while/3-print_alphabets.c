@@ -11,7 +11,7 @@ int main(void)
 		letter++;
 	}
 
- 	letter = 'A'; /* Reset letter to 'A' for uppercase*/
+	letter = 'A'; /* Reset letter to 'A' for uppercase*/
 
 	/* Print uppercase alphabet*/
 	while (letter <= 'Z')
