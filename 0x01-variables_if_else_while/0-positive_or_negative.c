@@ -4,21 +4,21 @@
 
 int main(void)
 {
-    int n;
-    srand(time(0));
+	int n;
+	srand(time(0));
 
-    n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
-    printf("The number is %d\n", n);
+	printf("%d is ", n);
 
-    if (n > 0) {
-        printf("is positive\n");
-    } else if (n == 0) {
-        printf("is zero\n");
-    } else {
-        printf("is negative\n");
-    }
+	if (n > 0) {
+		printf("positive\n");
+	} else if (n < 0) {
+		printf("negative\n");
+	} else {
+		printf("zero\n");
+	}
 
-    return 0; 
+	return (0);
 }
 
