@@ -3,6 +3,12 @@
 #include <time.h>
 
 int main(void)
+/**
+ *  Produces a random number, extracts its last digit,
+ *  and prints the last digit, and if it's greater than 5,
+ *  equal to 0, or less than 6 and not 0.
+ *  returns 0
+ */
 {
 	int n;
 	int d;
