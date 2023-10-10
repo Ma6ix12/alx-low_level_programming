@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int main(void) {
+/* Prints lowercase alphabet sequentially */
+int main(void)
+{
 	/* Initialize variable to store current character */
 	char letter = 'a';
 
