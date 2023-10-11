@@ -3,7 +3,7 @@
 int main(void)
 {
 	putchar('0');
-	putcahr('\n');
+	putchar('\n');
 
 	for (int i = 1; i <= 9; i++)
 	{
