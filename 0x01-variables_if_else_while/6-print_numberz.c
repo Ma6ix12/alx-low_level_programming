@@ -2,10 +2,11 @@
 
 int main(void)
 {
+	int i = 1;
+
 	putchar('0');
 	putchar('\n');
 
-	int i = 1;
 	while (i <= 9)
 	{
 		putchar('0' + i);
