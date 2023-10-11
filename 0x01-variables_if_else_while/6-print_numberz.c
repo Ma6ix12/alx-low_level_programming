@@ -3,6 +3,7 @@
 int main(void)
 {
 	int i;
+
 	i = 1;
 
 	putchar('0');
