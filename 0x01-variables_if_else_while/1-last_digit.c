@@ -3,9 +3,7 @@
 #include <time.h>
 
 /**
- *  Produces a random number, extracts its last digit,
- *  and prints the last digit, and if it's greater than 5,
- *  equal to 0, or less than 6 and not 0.
+ *  main - Entry point
  *  Return: Always 0 (Success)
  */
 int main(void)
