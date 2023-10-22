@@ -1,20 +1,19 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+
+/**
+ * main - Entry poiny
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
 {
-	int i;
+	int d;
 
-	i = 1;
-
-	putchar('0');
+	for (d = '0'; d <= '9'; d++)
+	putchar(d);
 	putchar('\n');
 
-	while (i <= 9)
-	{
-		putchar('0' + i);
-		putchar('\n')
-		i++;
-	}
 	return (0);
 }
-

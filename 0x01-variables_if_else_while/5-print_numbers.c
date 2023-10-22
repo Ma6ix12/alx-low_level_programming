@@ -1,9 +1,14 @@
 #include <stdio.h>
 
-/* prints all numbers of base 10 starting from 0 */
+/**
+ *  Prints all numbers of base 10 starting from 0 - Entry point
+ *  Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int n;
+
 	n = 0;
 
 	while (n < 10)

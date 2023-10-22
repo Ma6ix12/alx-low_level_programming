@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/* Prints lowercase alphabet sequentially */
+/**
+ * main - Prints lowercase alphabet sequentially
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	/* Initialize variable to store current character */
