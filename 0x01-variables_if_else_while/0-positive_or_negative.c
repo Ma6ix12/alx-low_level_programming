@@ -5,7 +5,7 @@
 /**
  * main - Generates a random number and prints
  *  if the number is positive, negative, or zero.
- * returns 0 on successful execution.
+ * Return: Always 0 (Success)
  */
 
 int main(void)
