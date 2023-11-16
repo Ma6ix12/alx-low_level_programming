@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /* Function to print the alphabet 10 times */
 void print_alphabet_x10(void)
