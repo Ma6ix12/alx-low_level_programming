@@ -15,7 +15,7 @@ int print_sign(int n)
 	}
 	else /* otherwise, n is less than zero */ 
 	{
-		_purchar('-');
+		_putchar('-');
 		return -1;
 	}
 }
