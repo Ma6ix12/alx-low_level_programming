@@ -1,9 +1,10 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * prints the alphabet in lowercase
+ * main - prints the alphabet in lowercase
  * initializes with c with an increment by one
- **/
+ * Return: Nothing
+ */
 void print_alphabet(void)
 {
 	char c = 'a';
