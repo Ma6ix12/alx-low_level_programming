@@ -8,6 +8,7 @@
  */
 int main(void)
 {
+	int length = _strlen(str);
 	char *str;
 	int len;
 
